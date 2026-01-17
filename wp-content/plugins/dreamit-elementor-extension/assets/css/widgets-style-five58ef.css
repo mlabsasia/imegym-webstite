@@ -1,0 +1,573 @@
+
+
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu {
+    z-index: 999;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    border: 0;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    width: 1292px;
+    max-width: none;
+    background-image: url(https://ittech.ditsolution.net/wp-content/uploads/2024/10/banner-1.png)!important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover!important;
+}
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item > a.mega-menu-link {
+    padding: 0px 0px 0px 24px!important;
+
+}
+
+
+
+/*===================Developer Hasan=============*/
+
+.single-slick.style_twelve .hero-text-wrap h4 {
+    padding: 0 0 10px 0px;
+    animation: 0.8s 0.8s fadeInUp both;
+    margin: 0 0 5px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2e39fb;
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap h4:before {
+    background: transparent;
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap h1 {
+    animation: 1s 1.6s fadeInUp both;
+    font-size: 70px;
+    line-height: 70px;
+    color: #041424;
+    font-weight: 700;
+    font-family: "Rajdhani";
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap p {
+    margin-top: 10px;
+    width: 80%;
+    animation: 1s 2s fadeInUp both;
+    font-size: 20px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap .btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(0deg, #3513f9 0%, #1a90ff 100%);
+    display: inline-block;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    animation: 1s 2s fadeInUp both;
+    font-family: 'Rajdhani';
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap .btn:after {
+    background: #041424;
+}
+
+/*Hero Right Site*/
+
+.dreamit-slick-slider .slider-single-image {
+    margin-right: 0;
+}
+
+.dreamit-slick-slider .single-slick.style_twelve .hero-text-wrap .btn img {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+.dreamit-slick-slider .style_twelve .slider-single-image img {
+    filter: brightness(1);
+}
+
+
+/*Section Title Start
+============================================*/
+
+.style24.section-title h3.title {
+    font-size: 45px;
+    margin: 14px 0 0;
+    line-height: 55px;
+}
+
+.style24.section-title h5.subtitle {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0c5adb;
+    padding: 0 0 0 21px;
+}
+
+.style24.section-title h5.subtitle:before {
+    position: absolute;
+    left: -3px;
+    top: -1px;
+    width: 100%;
+    height: 100%;
+    background: url(https://ittech.ditsolution.net/wp-content/uploads/2025/01/star-1.png);
+    content: "";
+    border-radius: inherit;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.section-style .style24.section-title h5.subtitle:before {
+    filter: brightness(0) invert(1);
+}
+
+
+.section-title.style24 p.description {
+    font-size: 17px;
+    color: #041424;
+    opacity: .7;
+}
+
+
+/*Single Feature Box
+===================================================*/
+
+.feature-box.style-eleven {
+    padding: 35px 35px 15px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 5px 27px rgba(191,191,191,0.25));
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box.style-eleven .feature-box-icon {
+    width: 103px;
+    height: 103px;
+    line-height: 123px;
+    text-align: center;
+    border-radius: 52px;
+    background-color: #ffffff;
+    border: 6px solid rgba(30,125,254,0.14);
+}
+
+.feature-box.style-eleven .feature-box-title h2 {
+    font-size: 26px;
+    padding: 13px 0 12px;
+    font-weight: 600;
+    color: #041424;
+    transition: .5s;
+}
+
+.feature-box.style-eleven .feature-box-desc p {
+    opacity: .9;
+    transition: .5s;
+}
+
+.feature-box.style-eleven:hover .feature-box-desc p, .feature-box.style-eleven:hover .feature-box-title h2  {
+    color: #fff;
+}
+
+/* Box-hover */
+
+.ittech-hover-box {
+  background-image: linear-gradient(0deg, #3513f9 0%, #1a90ff 100%);
+  height: 100%;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 25%;
+  z-index: -1;
+}
+
+.hover-bx {
+  left: 0;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+  border-radius: 20px 0 0px 20px;
+}
+.hover-bx2 {
+  left: 25%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-bx3 {
+  left: 50%;
+  -webkit-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.hover-bx4 {
+  left: 75%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  border-radius: 0 20px 20px 0;
+}
+
+.feature-box:hover .ittech-hover-box {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/*Feature Style Two 
+====================================*/
+
+.feature-box.style-eleven.twelve {
+    padding: 35px 35px 40px;
+}
+
+.feature-btn a img {
+    padding-left: 5px;
+    transition: .5s;
+}
+
+
+.twelve.feature-box:hover .feature-btn a {
+    color: #fff;
+}
+
+.twelve.feature-box:hover .feature-btn a::before {
+    transform: scale(1);
+}
+
+.twelve.feature-box:hover .feature-btn img {
+    filter: brightness(0) invert(1);
+}
+
+/*Feature Button
+==================================*/
+
+.twelve .feature-btn a {
+    font-size: 15px;
+    padding: 8px 30px;
+    color: #041424;
+    background-color: rgba(7,27,48,0);
+    border: 1px solid rgba(4,20,36,0.11);
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    margin-top: 5px;
+}
+
+.twelve .feature-btn a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(212deg, #3513f9 0%, #0b6fcc 100%);
+    border-radius: 30px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+}
+
+
+/*List Style 
+========================================*/
+
+ul.item-list.style8 li {
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Rajdhani";
+    color: #041424;
+}
+
+ul.item-list.style8 li img {
+    padding-right: 7px;
+    display: inline-block;
+}
+
+/*Dream It Button*/
+
+.dreamit-button.style24 .dreamit-button .button {
+    font-size: 18px;
+    padding: 17px 35px;
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(0deg, #3513f9 0%, #1a90ff 100%);
+    display: inline-block;
+    border-radius: 30px;
+    border: 0;
+    position: relative;
+    z-index: 11;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.dreamit-button.style24 .dreamit-button .button img {
+    padding-left: 5px;
+}
+
+.dreamit-button.style24 .dreamit-button .button:hover:before {
+    background: #041424;
+}
+
+/*Testimonial Section Style CSS
+==================================================*/
+
+
+.testimonial.style30 .testimonial-item {
+    padding: 48px 50px 73px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0);
+    border: 2px solid rgba(255,255,255,0.16);
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.testimonial.style30 .testimonial-item:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-45deg, #1a90ff 0%, #3513f9 100%);
+    z-index: -1;
+    border-radius: 20px;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.testimonial.style30 .author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial.style30 .author img {
+    width: 23% !important;
+    display: inline-block !important;
+}
+
+.testimonial.style30 h4.name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Rajdhani";
+    margin: 0;
+    color: #fff;
+    transition: .5s;
+}
+
+.testimonial.style30 .bio {
+    padding-left: 18px;
+}
+
+.testimonial.style30 h5.designation {
+    padding: 3px 0 0;
+    font-size: 16px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    color: #fff;
+    transition: .5s;
+    margin: 0;
+}
+
+.testimonial.style30 p.quote {
+    padding: 40px 0 10px;
+    opacity: 0.702;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.testimonial.style30 .testi-star i {
+    font-size: 18px;
+    color: #FFC12C;
+    display: inline-block;
+    float: right;
+    letter-spacing: 4px;
+}
+
+.testimonial.style30 .testimonial-item:hover:before {
+    transform: scale(1);
+}
+
+.testimonial.style30 .testimonial-item:hover {
+   border: 2px solid transparent;
+   ;
+}
+
+.testi-monial {
+    margin-left: 70px;
+    position: relative;
+}
+
+/*===============Testi nav===============*/
+
+.testimonial.style30 .owl-nav {
+    position: absolute;
+    top: -132px;
+    right: 560px;
+}
+
+.testimonial.style30 button.owl-prev {
+    background: transparent;
+}
+
+.testimonial.style30 button.owl-next {
+    margin-left: 76px;
+    background: transparent !important;
+}
+
+.testimonial.style30 button.owl-prev i, .testimonial.style30 button.owl-next i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0);
+    border: 2px solid rgba(255,255,255,0.3);
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial.style30 button.owl-prev i:after, .testimonial.style30 button.owl-next i:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-45deg, #1a90ff 0%, #3513f9 100%);
+    border-radius: 30px;
+    z-index: -1;
+    transform: scale(0);
+    transition: .5s;
+}
+
+.testimonial.style30 button.owl-prev:hover i:after, .testimonial.style30 button.owl-next:hover i:after {
+    transform: scale(1) !important;
+}
+
+/*==========Contact Form===========*/
+
+.form-area.data_analytic .form-control {
+    width: 100%;
+    height: 50px;
+    padding-left: 25px;
+    background: #fafbff;
+    border-radius: 5px;
+    color: #232323;
+    transition: 0.5s;
+    border: 1px solid #dfdede;
+}
+
+
+.form-area.data_analytic .form-box p input {
+    width: 100%;
+    height: 50px;
+    padding-left: 25px;
+    background: #fafbff;
+    border-radius: 5px;
+    color: #232323;
+    transition: 0.5s;
+    border: 1px solid #dfdede;
+}
+
+.form-area.data_analytic .form-group textarea.wpcf7-form-control.wpcf7-textarea.form-control {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #fafbff;
+    border: 1px solid #dfdede;
+}
+
+.form-area.data_analytic input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.form-control::placeholder {
+    color: #555 !important;
+}
+
+.form-area.data_analytic input[type="text"]::placeholder {
+    color: #555 !important;
+}
+
+.form-area.data_analytic .form-group textarea.wpcf7-form-control.wpcf7-textarea.form-control::placeholder {
+    color: #555555 !important;
+}
+
+/*==================Blog Start====================*/
+
+.blog-post.style1.twinty8 .post-item {
+    padding: 0 0 17px;
+    margin: 0;
+    border-radius: 15px;
+    filter: drop-shadow(-9.976px 0.698px 15px rgba(221,221,221,0.46));
+    background-color: #ffffff;
+    border: 0;
+}
+
+.blog-post.style1.twinty8 .post-thumb {
+    padding: 0;
+}
+
+.blog-post.style1.twinty8 .post-item .blog_post_inner_content {
+    padding: 25px 30px 15px;
+}
+
+.blog-post.style1.twinty8 .date span {
+    position: absolute;
+    bottom: 128px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-image: linear-gradient(-45deg, #1a90ff 0%, #3513f9 100%);
+    color: #fdfdfd;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 27px 18px 0;
+    text-align: center;
+}
+
+.blog-post.style1.twinty8 h3.title a {
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
